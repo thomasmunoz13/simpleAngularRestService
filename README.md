@@ -1,4 +1,4 @@
-# Simple REST Service for AngularJS
+# Simple REST API Service for AngularJS
 
 This is a AngularJS Service that I made for one of my school project ([amudrive](https://github.com/SKNZ/amudrive)).
 I made this because there is no "simple" way to call a REST API in Angular JS (I mean simply by calling a function) and the others solutions
