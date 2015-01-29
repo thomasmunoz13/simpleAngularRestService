@@ -48,8 +48,12 @@ myApp.service('REST', function($http, $q, $timeout) {
     };
 
     // Yeah it's a simple alert(), but you can make your own message displaying if you want ...
-    RestService.displayMessage = function($message){
-      alert($message);
+    RestService.displayMessage = function(message){
+      alert(message);
+    };
+
+    RestService.changeBaseUrl = function(url){
+        RestService.url = (url === undefined) ? RestService.url : url;
     };
 
     return RestService;
